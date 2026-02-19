@@ -44,4 +44,3 @@ The data will be recorded for the current day, if there are database entries for
 
 A proven way to use this app is inside a GitLab CI job that gets triggered regularly (at most once per day, as runs on the same day will override previous runs) and uses job artifacts to handle the persist/restore the database file.
 It's also very straightforward to deploy the resulting HTML page to GitLab pages.
-
